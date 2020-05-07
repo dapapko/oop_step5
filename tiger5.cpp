@@ -35,7 +35,7 @@ public:
     }
 
     // Default constructor
-    Tiger()
+    Tiger(const char* fileName="tiger.txt")
     {
         file.open(fileName);
         if (file.is_open()) {
