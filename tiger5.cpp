@@ -66,7 +66,7 @@ public:
             skinColour(instance.skinColour), isHungry(instance.isHungry)
     {}
     ~Tiger() {
-        if(file.is_open()) file.close();
+        cout << "Calling destructor of tiger" << endl;
     }
 };
 
